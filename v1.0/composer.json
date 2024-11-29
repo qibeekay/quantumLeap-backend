@@ -1,0 +1,20 @@
+{
+    "name": "qi/hopesport",
+    "description": "sport management",
+    "autoload": {
+        "psr-4": {
+            "Qi\\Hopesport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anugo Mokwe",
+            "email": "mokwechibuike7@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.10",
+        "vlucas/phpdotenv": "^5.6",
+        "ramsey/uuid": "^4.7"
+    }
+}
